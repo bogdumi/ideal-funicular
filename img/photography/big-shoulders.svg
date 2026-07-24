@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder cover: a dusk skyline of tall rectangular buildings in silhouette, with a warm diagonal beam of light crossing the sky.">
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1C2430" />
+      <stop offset="55%" stop-color="#12141A" />
+      <stop offset="100%" stop-color="#0C0C0D" />
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A9873F" stop-opacity="0" />
+      <stop offset="50%" stop-color="#A9873F" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#A9873F" stop-opacity="0" />
+    </linearGradient>
+    <filter id="grain3">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise" />
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.97  0 0 0 0 0.95  0 0 0 0 0.91  0 0 0 0.05 0" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#dusk)" />
+  <rect x="-200" y="0" width="500" height="800" fill="url(#beam)" transform="rotate(18 600 400)" />
+
+  <!-- skyline, bauhaus rectangular blocks -->
+  <g fill="#0C0C0D">
+    <rect x="40" y="520" width="90" height="280" />
+    <rect x="150" y="440" width="70" height="360" />
+    <rect x="240" y="500" width="110" height="300" />
+    <rect x="370" y="330" width="80" height="470" />
+    <rect x="460" y="410" width="60" height="390" />
+    <rect x="530" y="260" width="100" height="540" />
+    <rect x="640" y="370" width="70" height="430" />
+    <rect x="720" y="460" width="120" height="340" />
+    <rect x="850" y="300" width="85" height="500" />
+    <rect x="945" y="420" width="65" height="380" />
+    <rect x="1020" y="480" width="100" height="320" />
+    <rect x="1130" y="400" width="70" height="400" />
+  </g>
+
+  <!-- window lights -->
+  <g fill="#F7F3E9">
+    <rect x="560" y="300" width="6" height="10" opacity="0.7" />
+    <rect x="580" y="340" width="6" height="10" opacity="0.5" />
+    <rect x="560" y="380" width="6" height="10" opacity="0.6" />
+    <rect x="880" y="340" width="6" height="10" opacity="0.6" />
+    <rect x="900" y="380" width="6" height="10" opacity="0.4" />
+    <rect x="395" y="370" width="6" height="10" opacity="0.5" />
+    <rect x="395" y="410" width="6" height="10" opacity="0.65" />
+    <rect x="1050" y="520" width="6" height="10" opacity="0.5" />
+  </g>
+  <g fill="#A9873F">
+    <rect x="560" y="320" width="6" height="10" opacity="0.55" />
+    <rect x="880" y="360" width="6" height="10" opacity="0.5" />
+    <rect x="395" y="390" width="6" height="10" opacity="0.5" />
+  </g>
+
+  <rect width="1200" height="800" filter="url(#grain3)" />
+</svg>

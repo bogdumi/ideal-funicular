@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder detail: a close crop of riveted steel girders crossing diagonally, lit from one side.">
+  <defs>
+    <linearGradient id="steelLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a3f47" />
+      <stop offset="100%" stop-color="#0c0c0d" />
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A9873F" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#A9873F" stop-opacity="0" />
+    </linearGradient>
+    <filter id="grainD">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise" />
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.97  0 0 0 0 0.95  0 0 0 0 0.91  0 0 0 0.05 0" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="#0C0C0D" />
+  <rect width="1200" height="800" fill="url(#beam)" />
+
+  <g fill="url(#steelLight)" stroke="#0C0C0D" stroke-width="6">
+    <rect x="-100" y="120" width="1500" height="140" transform="rotate(-14 600 190)" />
+    <rect x="-100" y="420" width="1500" height="140" transform="rotate(-14 600 490)" />
+    <rect x="150" y="-100" width="140" height="1000" transform="rotate(8 220 400)" />
+    <rect x="820" y="-100" width="140" height="1000" transform="rotate(8 890 400)" />
+  </g>
+
+  <g fill="#F7F3E9" opacity="0.85">
+    <circle cx="230" cy="180" r="9" />
+    <circle cx="230" cy="480" r="9" />
+    <circle cx="900" cy="180" r="9" />
+    <circle cx="900" cy="480" r="9" />
+    <circle cx="560" cy="150" r="9" />
+    <circle cx="560" cy="450" r="9" />
+  </g>
+
+  <rect width="1200" height="800" filter="url(#grainD)" />
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder detail: a tight crop on the figure's long cast shadow stretching across the pavement.">
+  <defs>
+    <linearGradient id="groundTight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1712" />
+      <stop offset="100%" stop-color="#0C0C0D" />
+    </linearGradient>
+    <filter id="grainS">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise" />
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.97  0 0 0 0 0.95  0 0 0 0 0.91  0 0 0 0.05 0" />
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#groundTight)" />
+  <path d="M420 760 L620 760 L980 260 L760 260 Z" fill="#0C0C0D" opacity="0.9" />
+  <line x1="0" y1="600" x2="1200" y2="600" stroke="#A9873F" stroke-width="2" opacity="0.3" />
+  <rect width="1200" height="800" filter="url(#grainS)" />
+</svg>

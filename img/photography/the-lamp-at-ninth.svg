@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder cover: a lone silhouetted figure standing in a streetlamp's cone of light at night.">
+  <defs>
+    <radialGradient id="cone" cx="62%" cy="8%" r="70%">
+      <stop offset="0%" stop-color="#A9873F" stop-opacity="0.55" />
+      <stop offset="40%" stop-color="#A9873F" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#0C0C0D" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0C0C0D" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0C0C0D" stop-opacity="0.6" />
+    </linearGradient>
+    <filter id="grain2">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise" />
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.97  0 0 0 0 0.95  0 0 0 0 0.91  0 0 0 0.05 0" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="#0C0C0D" />
+  <rect width="1200" height="800" fill="url(#cone)" />
+
+  <!-- lamp post -->
+  <line x1="744" y1="40" x2="744" y2="560" stroke="#0C0C0D" stroke-width="10" />
+  <circle cx="744" cy="40" r="16" fill="#F7F3E9" opacity="0.85" />
+
+  <!-- long cast shadow -->
+  <path d="M624 560 L744 560 L980 700 L780 700 Z" fill="#0C0C0D" opacity="0.75" />
+
+  <!-- figure: reduced bauhaus silhouette -->
+  <circle cx="700" cy="470" r="26" fill="#0C0C0D" />
+  <path d="M664 502 Q700 486 736 502 L748 620 L652 620 Z" fill="#0C0C0D" />
+
+  <rect x="0" y="560" width="1200" height="240" fill="url(#ground)" />
+  <line x1="0" y1="602" x2="1200" y2="602" stroke="#A9873F" stroke-width="2" opacity="0.35" />
+
+  <rect width="1200" height="800" filter="url(#grain2)" />
+</svg>
