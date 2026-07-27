@@ -75,7 +75,7 @@ Printed slightly warm, on purpose — steel goes cold enough on its own.`},{slug
 
 Somewhere below, a taxi rank empties and refills every four minutes. Up here you only get the light of it — a smear of brass where a sign should be, a pulse of red that might be a brake light, or might be *nothing at all*.
 
-Shot handheld at \`1/15s\` against the glass itself, using the pane as a tripod. Anything sharper would have missed the point.`},{slug:"test-testy-test",title:"This is another test post",description:"How nice it is to add text",photos:[{src:"/img/photography/test-testy-test/1785147924516-telegram-photo-0-5346316123051334910.jpeg",alt:"",caption:"What about this picture",isCover:!1},{src:"/img/photography/test-testy-test/1785147941200-telegram-photo-0-5346316123051334911.jpeg",alt:"",caption:"",isCover:!0}],tags:["Cool","other"],date:"2026.07.26",location:"London, UK",camera:"Leica",film:"Film",draft:!1,publishedAt:"2026-07-27T10:27:24.644Z",body:`# Hey
+Shot handheld at \`1/15s\` against the glass itself, using the pane as a tripod. Anything sharper would have missed the point.`},{slug:"test-testy-test",title:"This is another test post",description:"How nice it is to add text",photos:[{src:"/img/photography/test-testy-test/1785147924516-telegram-photo-0-5346316123051334910.jpeg",alt:"",caption:"What about this picture",isCover:!0},{src:"/img/photography/test-testy-test/1785147941200-telegram-photo-0-5346316123051334911.jpeg",alt:"",caption:"",isCover:!1}],tags:["Cool","other"],date:"2026.07.26",location:"London, UK",camera:"Leica",film:"Film",draft:!1,publishedAt:"2026-07-27T10:27:24.644Z",body:`# Hey
 
 I want to write a test post
 
