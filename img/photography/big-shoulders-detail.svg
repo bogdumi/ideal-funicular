@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Placeholder detail: a close crop of riveted steel girders crossing diagonally, lit from one side.">
   <defs>
     <linearGradient id="steelLight" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#3a3f47" />
-      <stop offset="100%" stop-color="#0c0c0d" />
+      <stop offset="0%" stop-color="#4a4038" />
+      <stop offset="100%" stop-color="#0a0908" />
     </linearGradient>
     <linearGradient id="beam" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#A9873F" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#A9873F" stop-opacity="0" />
+      <stop offset="0%" stop-color="#c1552c" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#c1552c" stop-opacity="0" />
     </linearGradient>
     <filter id="grainD">
       <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise" />
@@ -14,17 +14,17 @@
     </filter>
   </defs>
 
-  <rect width="1200" height="800" fill="#0C0C0D" />
+  <rect width="1200" height="800" fill="#0a0908" />
   <rect width="1200" height="800" fill="url(#beam)" />
 
-  <g fill="url(#steelLight)" stroke="#0C0C0D" stroke-width="6">
+  <g fill="url(#steelLight)" stroke="#0a0908" stroke-width="6">
     <rect x="-100" y="120" width="1500" height="140" transform="rotate(-14 600 190)" />
     <rect x="-100" y="420" width="1500" height="140" transform="rotate(-14 600 490)" />
     <rect x="150" y="-100" width="140" height="1000" transform="rotate(8 220 400)" />
     <rect x="820" y="-100" width="140" height="1000" transform="rotate(8 890 400)" />
   </g>
 
-  <g fill="#F7F3E9" opacity="0.85">
+  <g fill="#ede7da" opacity="0.85">
     <circle cx="230" cy="180" r="9" />
     <circle cx="230" cy="480" r="9" />
     <circle cx="900" cy="180" r="9" />
